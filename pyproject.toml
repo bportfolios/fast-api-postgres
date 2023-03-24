@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "fast-api-postgres"
+version = "0.1.0"
+description = "fastapi, postgres, pydantic sqlalchemy,alembic tryout"
+authors = ["Bipika <bpka1990@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
